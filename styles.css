@@ -772,7 +772,7 @@ body{
 
 @media(max-width:700px){
   .fresh-truck{
-    flex-wrap: wrap;
+    display: block;
   }
 }
 
@@ -885,6 +885,24 @@ body{
   gap: 24px;
   height: 249px;
   
+}
+
+@media(max-width:700px) {
+  .weekend-card{
+    width: 300px;
+    min-height: 249px;
+  }
+  .dinner-plans{
+    width: 300px;
+    align-items: center;
+    .left >p {
+      width: 200px;
+    }
+  }
+  .qr-code{
+    display: none;
+  }
+
 }
 
 .left > h5{
@@ -1076,5 +1094,11 @@ body{
 @media (max-width: 400px) {
   .how-it-works-left > p {
     width: 300px;
+  }
+}
+
+@media (max-width: 400px) {
+  .qr-box {         
+    display: none;
   }
 }
