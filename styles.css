@@ -1104,4 +1104,7 @@ body{
   .qr-box {         
     display: none;
   }
+  .copyright{
+    display: block;
+  }
 }
