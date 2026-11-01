@@ -8,6 +8,7 @@ body{
   font-family: 'DM Sans';
   justify-content: center;
   align-items: center;
+  display: block;
 }
 .logo-text{
   font-family:'Source Serif 4' ;
