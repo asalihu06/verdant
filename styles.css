@@ -891,12 +891,14 @@ body{
   .weekend-card{
     width: 300px;
     min-height: 249px;
+    height: auto;
   }
   .dinner-plans{
     width: 300px;
     align-items: center;
     .left >p {
       width: 200px;
+      height: auto;
     }
   }
   .qr-code{
